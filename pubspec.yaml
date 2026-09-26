@@ -1,0 +1,23 @@
+name: plotwise
+description: Zone-by-zone crop advice for farmers (iOS + Android).
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_map: ^7.0.2   # OpenStreetMap, no API key, works on iOS + Android
+  latlong2: ^0.9.1
+  geolocator: ^13.0.1   # GPS on iOS + Android
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
